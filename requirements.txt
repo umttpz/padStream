@@ -1,0 +1,15 @@
+# GameStream - Requirements
+# Install with: pip install -r requirements.txt
+
+# GUI + tray
+PyQt6>=6.6.0
+pywin32>=306
+
+# Gamepad capture (client)
+pygame>=2.5.0
+
+# Audio loopback capture + playback
+PyAudioWPatch>=0.2.12.5
+
+# Virtual gamepad (server - requires ViGEmBus driver)
+vgamepad>=0.1.0
